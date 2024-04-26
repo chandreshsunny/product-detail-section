@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single E-commerce Product Page</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!---Boxicons CDN Setup for icons-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="single-product">
+            <div class="row">
+                <div class="col-6">
+                    <div class="product-image">
+                        <div class="product-image-main">
+                            <img src="./tshirt-1.png" alt="" id="product-main-image">
+                        </div>
+                        <div class="product-image-slider">
+                            <img src="./tshirt-1.png" alt=""  class="image-list">
+                            <img src="./tshirt-2.png" alt=""  class="image-list">
+                            <img src="./tshirt-3.png" alt=""  class="image-list">
+                            <img src="./tshirt-group.png" alt=""  class="image-list">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+
+                    <div class="product">
+                        <div class="headline">
+                            <p> Marmeto</p>
+                        </div>
+                        <div class="product-title">
+                            <h2>Embrace Sideboard</h2>
+                        </div>
+                        <span class="divider"></span>
+                        <div class="product-price">
+                            <div class="offer-price">$12999.00 <span class="discount">35% Off</span></div>
+                            <div class="sale-price">$19999.00</div>
+                        </div>
+                        <span class="divider"></span>
+                        <div class="product-color">
+                            <div class="headline">
+                                <p>Choose a Color</p>
+                            </div>
+                            <div class="color-layout">
+                                <input type="radio" name="color" value="orange" id="orange" class="color-input">
+                                <label for="orange" class="orange"></label>
+                                <input type="radio" name="color" value="green" id="green" class="color-input">
+                                <label for="green" class="green"></label>
+                                <input type="radio" name="color" value="blue" id="blue" class="color-input">
+                                <label for="blue" class="blue"></label>
+                                <input type="radio" name="color" value="pink" id="pink" class="color-input">
+                                <label for="pink" class="pink"></label>
+                            </div>
+                        </div>
+                        <span class="divider"></span>
+                        <div class="product-size">
+                            <div class="headline">
+                                <p>Choose a Size</p>
+                            </div>
+                            <div class="size-layout">
+                                <input type="radio" name="size" value="S" id="1" class="size-input">
+                                <label for="1" class="size">Small</label>
+                        
+                                <input type="radio" name="size" value="M" id="2" class="size-input">
+                                <label for="2" class="size">Medium</label>
+                        
+                                <input type="radio" name="size" value="L" id="3" class="size-input">
+                                <label for="3" class="size">Large</label>
+                        
+                                <input type="radio" name="size" value="XL" id="4" class="size-input">
+                                <label for="4" class="size">Extra Large</label>
+                        
+                                <input type="radio" name="size" value="XXL" id="5" class="size-input">
+                                <label for="5" class="size">XXL</label>
+                            </div>
+                        </div>
+                        
+
+                        <div class="product-btn-group">
+                            <div class="button counter"><span class="minus">-</span><span class="count">0</span><span class="plus">+</span></div>
+                            <div class="button add-cart"><i class='bx bxs-shopping-bag'></i> Add to Cart</div>
+                        </div>
+                        <span class="divider"></span>
+                        <div class="describe">
+                            <p>The Embrace Sideboard is a stylish wear. With a top cloth desgined to provide superior is both functional and look great, this storage solution is both functional and attractive. It fits seamlessely into any home decor, with clean lines and a timeless look. Crafted from premium materials for a combination of style, durability and reliability</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--script-->
+    <script src="script.js"></script>
+</body>
+</html>
